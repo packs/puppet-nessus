@@ -1,0 +1,2 @@
+# nessusd Log Cleanup
+0 2   * * *     root  /usr/bin/find /opt/nessus/var/nessus/logs -type f -daystart -mtime +7 -delete
